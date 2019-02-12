@@ -490,7 +490,7 @@ class SphinxQL
                 }
 
                 if ($pre !== '') {
-                    $matched[] = '('.$pre.')';
+                    $matched[] = $pre;
                 }
             }
 
